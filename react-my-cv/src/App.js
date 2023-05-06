@@ -3,6 +3,7 @@ import ProfilePicture from './components/Picture';
 import Contacts from './components/Contacts';
 import Experience from './components/Experience';
 import Counter from './components/Counter';
+import GithubRepos from './components/GithubRepos';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className='content'>
         <Experience />
+      </div>
+      <div className='repos'>
+        <GithubRepos />
       </div>
       <div>
         <Counter />
